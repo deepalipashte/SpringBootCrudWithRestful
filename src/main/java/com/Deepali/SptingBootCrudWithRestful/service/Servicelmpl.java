@@ -16,14 +16,14 @@ public class Servicelmpl implements Servicel {
 	
 	@Override
 	public int SaveEmployee(Employee employee) {
-		int save = employeeDaol.saveEmployeeDaol(employee);
-		return save;
+		int id = employeeDaol.saveEmployeeDaol(employee);
+		return id;
 	}
 
 	@Override
 	public List<Employee> getallEmployee(Employee employee) {
-		List<Employee> allEmployeeDaol = employeeDaol.getAllEmployeeDaol();
-		return allEmployeeDaol;
+		List<Employee> list = employeeDaol.getAllEmployeeDaol();
+		return list;
 	}
 
 }
