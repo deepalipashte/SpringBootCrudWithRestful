@@ -1,5 +1,4 @@
 package com.Deepali.SptingBootCrudWithRestful.model;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -61,7 +60,6 @@ public class Employee {
 	public String toString() {
 		return "Employee [eid=" + eid + ", ename=" + ename + ", esal=" + esal + ", edep=" + edep + "]";
 	}
-	
 	
 	
 	
