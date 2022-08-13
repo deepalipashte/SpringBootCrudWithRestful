@@ -5,10 +5,9 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.Deepali.SptingBootCrudWithRestful.model.Employee;
+
 @Service
 public class Servicelmpl implements Servicel {
-	
-
 
 	@Override
 	public int SaveEmployee(Employee employee) {
